@@ -20,6 +20,8 @@ import web_dev_4 from "./web_dev_3.png";
 import web_dev_5 from "./web_dev_4.png";
 import web_dev_6 from "./web_dev_5.png";
 import web_dev_7 from "./web_dev_6.png";
+import web_dev_8 from "./web_dev_7.png";
+import web_dev_9 from "./web_dev_8.png";
 import mobil_dev_1 from "./mobil_dev.jpg";
 import project_name_icon from "./project_name_icon.png"
 import flash_back_icon from "./flashBack_icon.png"
@@ -30,5 +32,5 @@ export default {
     birthday_icon,location_icon,nationality_icon,city_icon,
     formation_icon,logo_fst,ensias_logo,experience_icon,elr12_logo,
     project_icon,web_dev_1,web_dev_2,web_dev_3,web_dev_4,project_name_icon,flash_back_icon,
-    period_icon,web_dev_5,web_dev_6,web_dev_7,mobil_dev_1
+    period_icon,web_dev_5,web_dev_6,web_dev_7,mobil_dev_1,web_dev_8,web_dev_9
 }
