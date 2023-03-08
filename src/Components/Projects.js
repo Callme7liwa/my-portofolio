@@ -31,8 +31,8 @@ const Projects = ({mode}) => {
           name : "School Mate",
           description : "I designed and developed a web-based school management application that provides a centralized solution for managing student data, teacher information, grades, and absences. My application allowed the school to effectively manage their academic processes, improve communication between students and teachers, and track student progress in real-time. I worked closely with the school administrators to understand their needs, which enabled me to design a user-friendly and intuitive interface that met their specific requirements.",
           duration : "oct. 2022 - janv. 2023",
-          technologies : ["java","Jee","js" , "git" , "github"],
-          images : []
+          technologies : ["java","Jee","Servlets","Jsp","js" , "git" , "github"],
+          images : [Images.school_1,Images.school_2,Images.school_3,Images.school_4,Images.school_5,Images.school_6,Images.school_7,Images.school_8,Images.school_9,Images.school_10,Images.school_11,Images.school_12]
         },
         {
           image : Images.web_dev_1,
@@ -40,7 +40,7 @@ const Projects = ({mode}) => {
           description : "I designed and developed a web-based project management application for a company, offering a centralized solution for project planning, collaboration, and tracking. My application enabled the company to efficiently manage projects, improve communication and collaboration among team members, and track progress in real-time. I worked closely with team members to understand their needs, which allowed me to design a user-friendly and intuitive interface that met their specific requirements.",
           duration : "Jul. 2022 - août 2022 · 2 month",
           technologies : ["java","spring boot","react js" , "redux" ,"git" , "github"],
-          images : []
+          images : [Images.project_1,Images.project_2,Images.project_3,Images.project_4,Images.project_5,Images.project_6,Images.project_7,Images.project_8,Images.project_9,Images.project_10,Images.project_11,Images.project_12,Images.project_13,Images.project_14,Images.project_15,Images.project_16,Images.project_17,Images.project_18,Images.project_19,Images.project_20,Images.project_21,Images.project_22,Images.project_23,Images.project_24,Images.project_25,Images.project_26,Images.project_27,Images.project_28,Images.project_29]
         },
         {
           image : Images.web_dev_3,
@@ -48,7 +48,7 @@ const Projects = ({mode}) => {
           description : "I worked on an ambitious project to create a streaming platform for artists that also includes an online store for selling artist-related products. My project enabled artists to live stream their music, reach a wider audience, and sell their products directly to their fans. I collaborated with a multidisciplinary team to design a user-friendly interface that provides an optimal user experience while allowing artists to easily manage their content and sales. My project was a great success, allowing artists to generate additional revenue through the sale of products related to their music while offering fans a unique music streaming experience.",
           duration : "mars 2022 - juin 2022",
           technologies : ["php","laravel","react js" , "redux" , "mysql", "git" , "github"],
-          images : []
+          images : [Images.stream_1,Images.stream_2,Images.stream_3,Images.stream_4,Images.stream_5,Images.stream_6,Images.stream_8,Images.stream_9,Images.stream_10,Images.stream_11,Images.stream_12,Images.stream_13,Images.stream_14,Images.stream_15,Images.stream_16]
         },
         {
           image : Images.web_dev_2,
@@ -56,7 +56,7 @@ const Projects = ({mode}) => {
           description : "i had the honor of working on a project that focused on the management of moroccan cultural heritage, aiming to preserve and promote the country's cultural treasures. as a web developer, i worked closely with experts in cultural heritage to create an interactive and educational platform for visitors from around the world. this platform allowed users to explore historical sites, museums, and cultural events through photos, videos, and detailed descriptions. it also provided practical information to help visitors plan their trips. through this project, i was able to contribute to the preservation of morocco's cultural heritage and promote its cultural tourism across the globe.",
           technologies : ["php","laravel","react js" , "redux" , "mysql", "git" , "github"],
           duration : "mai. 2021 - jun 2021 · 2 month",
-          images : []
+          images : [Images.patri_1,Images.patri_2,Images.patri_3,Images.patri_4,Images.patri_5,Images.patri_6,Images.patri_7,Images.patri_8,Images.patri_9,Images.patri_10,Images.patri_11,Images.patri_12,Images.patri_13,Images.patri_14,Images.patri_15,Images.patri_16,Images.patri_17,Images.patri_18]
         },
         {
           image : Images.web_dev_8 , 
@@ -152,8 +152,8 @@ const Projects = ({mode}) => {
     const RenderProjects = () => {
       return (
             <div className="bodysecond-right">
-                <div className="body-title">
-                    <img src={Images.project_icon} />
+                <div className="body-title" >
+                    <img src={Images.project_icon}  className={`${mode==1 ? 'light-border-blue' : ''} `}/>
                     <span className={`${mode==1 ? 'text-light light-title' : ''} `}> Projects  </span>
                 </div>
                 <div className="list-projects">

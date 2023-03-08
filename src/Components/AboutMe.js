@@ -3,9 +3,22 @@ import Images from "../Images"
 const AboutMe = ({mode}) => {
 
     const listInfoAboutMe = [
-        "Je suis passionné par l'apprentissage continu et la croissance personnelle. Je suis constamment à la recherche de nouvelles compétences et de nouvelles connaissances que je peux acquérir pour améliorer mes capacités. J'aime trouver de nouveaux défis pour moi-même et travailler dur pour les surmonter. Je crois que la clé de la réussite est la persévérance et la détermination. C'est pourquoi j'essaie de maximiser chaque moment de mon temps en restant productif et en apprenant quelque chose de nouveau chaque jour. Pour moi, il est important de rester engagé dans un apprentissage continu et de rester au courant des dernières tendances et technologies pour améliorer mes compétences et offrir à mes projets la meilleure qualité possible.    ",
-        "Je suis passionné par la création d'interfaces utilisateur qui sont non seulement esthétiquement agréables, mais qui améliorent également l'expérience utilisateur. Mon approche de conception est de créer des interfaces 'from scratch' pour chaque projet. Je crois que chaque projet est unique et mérite une attention particulière dans sa conception. Plutôt que d'utiliser des modèles pré-fabriqués, j'aime prendre le temps de comprendre les besoins et les préférences des utilisateurs pour créer une interface utilisateur unique et personnalisée qui répond à leurs besoins spécifiques. En travaillant de cette façon, je suis convaincu que je peux créer des interfaces utilisateur qui sont innovantes, élégantes et fonctionnelles.",
-        "En plus de mes compétences en conception et en développement web, je suis également passionné par le marketing numérique et la gestion de réseaux sociaux. J'ai une page Instagram avec plus de 60k abonnés que j'ai construite à partir de zéro. Grâce à cette expérience, j'ai acquis une solide compréhension des stratégies de marketing sur les réseaux sociaux et de la manière de créer et de promouvoir du contenu engageant. Je suis fier de ma capacité à créer des campagnes publicitaires réussies et à utiliser les données d'analyse pour améliorer les performances de mes comptes de médias sociaux."
+      {
+         image : Images.apprentissage,
+         title : "Learning Progress",
+         description : "I am passionate about continuous learning and personal growth. I am constantly seeking out new skills and knowledge that I can acquire to improve my abilities. I enjoy finding new challenges for myself and working hard to overcome them. I believe that the key to success is perseverance and determination. That's why I try to maximize every moment of my time by staying productive and learning something new every day. For me, it's important to stay engaged in continuous learning and to stay up-to-date with the latest trends and technologies to improve my skills and deliver the best possible quality to my projects."
+      },
+      {
+         image : Images.design,
+         title : "Mobile and Web Design Enthuisiast",
+         description :"I am passionate about creating user interfaces that are not only aesthetically pleasing but also enhance the user experience. My design approach is to create interfaces from scratch for each project. I believe that every project is unique and deserves special attention in its design. Rather than using pre-made templates, I enjoy taking the time to understand users' needs and preferences to create a unique, customized user interface that meets their specific requirements. By working in this way, I am confident that I can create user interfaces that are innovative, elegant, and functional."
+      },
+      {
+         image : Images.reseaux_sociaux,
+         title : "Social Networks",
+         description :"IN ADDITION TO MY SKILLS IN WEB DESIGN AND DEVELOPMENT, I AM ALSO PASSIONATE ABOUT DIGITAL MARKETING AND SOCIAL MEDIA MANAGEMENT. I HAVE AN INSTAGRAM PAGE WITH OVER 60K FOLLOWERS THAT I BUILT FROM SCRATCH. THROUGH THIS EXPERIENCE, I HAVE GAINED A STRONG UNDERSTANDING OF SOCIAL MEDIA MARKETING STRATEGIES AND HOW TO CREATE AND PROMOTE ENGAGING CONTENT. I AM PROUD OF MY ABILITY TO CREATE SUCCESSFUL AD CAMPAIGNS AND USE ANALYTICS DATA TO IMPROVE THE PERFORMANCE OF MY SOCIAL MEDIA ACCOUNTS."
+      },
+     
     ]
     
     
@@ -20,20 +33,41 @@ const AboutMe = ({mode}) => {
             </div>
         )
       }
+
+    const RenderInformationItem = ({item}) => {
+      return (
+        <div className={`${mode==1 ? 'project-item-light' : ''} project-item`}>
+            <div className="image-container">
+              <img src={item.image} />
+            </div> 
+            <div className="project-information">
+                <div className={`${mode==1 ? 'text-light' : ''} project-name `}><img src={Images.title_icon} /><span>{item.title}</span></div> 
+                <div className="project-description">
+                  <img src={Images.more_icon} />
+                  <span className={`${mode==1 ? 'text-light' : ''} `}>
+                     {item.description}
+                  </span>
+                  <div className={`${mode==1 ? 'line-body-light' : ''} line-body`}></div>
+                </div>   
+            </div> 
+        </div>
+      )
+    }
+
       return (
             <div className="bodysecond-right">
                 <div className="body-title">
-                    <img src={Images.project_icon} />
+                    <img src={Images.project_icon} className={`${mode==1 ? 'light-border-blue' : ''} `} />
                     <span className={`${mode==1 ? 'text-light light-title' : ''} `}> More About me    </span>
                 </div>
-                <div className="list-info-about-me">
+                <div className="list-projects"> 
                   {
                     listInfoAboutMe.map(item=>(
-                      <RenderInfoItem item={item} />
+                      <RenderInformationItem item={item} />
                     ))
                   }
                 </div>
-                <div className="line-body"></div>
+                <div className={`${mode==1 ? 'line-body-light' : ''} line-body`}></div>
             </div>
       )
     }

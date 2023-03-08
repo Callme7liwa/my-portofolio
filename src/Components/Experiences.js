@@ -8,7 +8,7 @@ const Experiences = ({mode}) => {
           name  : "Elr12",
           title : "Full Stack Enginner",
           mission : " Design and Implementation of a Project Management Application.",
-          description : "J'ai développé une application web de gestion de projets sur mesure pour une entreprise, offrant une solution clé en main pour la planification, la collaboration et la supervision de projets. Grâce à une interface utilisateur intuitive et conviviale, les membres de l'équipe peuvent facilement suivre les tâches, les échéances et les budgets, tout en restant informés des mises à jour en temps réel. Cette application a permis d'optimiser la productivité et d'améliorer la communication entre les membres de l'équipe, ce qui a conduit à une réalisation plus efficace et efficiente des projets.",
+          description : "I developed a custom web-based project management application for a company, providing an end-to-end solution for planning, collaborating, and overseeing projects. With an intuitive and user-friendly interface, team members can easily track tasks, deadlines, and budgets while staying informed of real-time updates. This application has enabled productivity optimization and improved communication among team members, resulting in more efficient and effective project delivery.",
           period : "Jul. 2022 - août 2022 · 2 month",
           technologies : ["java","spring boot","mongodb","react js","redux","git","github","uml"]
         },
@@ -43,7 +43,7 @@ const Experiences = ({mode}) => {
                     <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i>
                     {item.mission}
                   </span>
-                  <div className="experience-description text-light">
+                  <div className="experience-description ">
                      {item.description}
                   </div>
                   <div className="list-specialities">

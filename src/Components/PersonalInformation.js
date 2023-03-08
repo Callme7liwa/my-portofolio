@@ -85,8 +85,7 @@ const PersonalInformation = ({mode}) => {
               <img src={Images.profile_image} />
             </div>
             <ListInfo />
-            <div className="line-body"></div>
-            <div className={`${mode==1 ? 'line-body' : 'line-body-light'}`}></div>
+            <div className={`${mode==1 ? 'line-body-light' : ''} line-body`}></div>
         </div>
       )
     }
