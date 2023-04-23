@@ -5,21 +5,12 @@ const Experiences = ({mode}) => {
     const listExepriences = [
         {
           image : Images.elr12_logo,
-          name  : "Elr12",
+          name  : "UXCENTERS",
           title : "Full Stack Enginner",
-          mission : " Design and Implementation of a Project Management Application.",
-          description : "I developed a custom web-based project management application for a company, providing an end-to-end solution for planning, collaborating, and overseeing projects. With an intuitive and user-friendly interface, team members can easily track tasks, deadlines, and budgets while staying informed of real-time updates. This application has enabled productivity optimization and improved communication among team members, resulting in more efficient and effective project delivery.",
+          mission : " E-commerce Website with Stripe Payment Integration",
+          description : "As part of my summer internship, I developed an e-commerce website using the Symfony PHP framework. The website allows users to browse products, add items to their cart, and complete purchases securely using the Stripe payment gateway. I integrated a variety of features, including user authentication, cart management, and product search functionality. This project allowed me to apply my knowledge of web development and payment gateway integration to create a functional and user-friendly e-commerce website.",
           period : "Jul. 2022 - août 2022 · 2 month",
-          technologies : ["java","spring boot","mongodb","react js","redux","git","github","uml"]
-        },
-        {
-          image : Images.logo_fst,
-          name  : "Faculty of Sciences and Techniques of Fes",
-          title : "Full Stack Enginner",
-          mission : "Development and design of a web platform for Moroccan heritage management",
-          description : "This end-of-studies project, carried out within the LSIA (laboratory Intelligent Systems and applications), had as its objective , the implementation of a management system for the  Moroccan cultural heritage. This system aims to automate the registration, querying and accessing information mainly concerning the categories of the following heritage: historic buildings, archaeological sites and cultural objects. " ,
-          period : "mai 2021 - Jun 2021 · 2 month",
-          technologies : ["php","laravel","js","jquery","mysql","uml"]
+          technologies : ["PHP","sql","Mysql","symfony","stripe","git","github","merise"]
         },
       ];
 

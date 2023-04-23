@@ -7,7 +7,7 @@ const Welcome = ({mode}) => {
         <div className="body_left-container">
           <div className="left_content-first">
             <div>
-              <span className={`${mode===1 ? "light-blue" : ""} function`}> /* Software Enginner */ </span>
+              <span className={`${mode===1 ? "light-blue" : ""} function`}> /* Data Scientist */ </span>
             </div>
             <div>
               <span className={`${mode==1 ? 'text-light' : ''}`}> Talk is cheap .</span>
@@ -16,11 +16,10 @@ const Welcome = ({mode}) => {
                 <span className={`${mode==1 ? 'text-blue' : ''} operator`}>&lt; /&gt; .</span>
               </span>
               <span className={`${mode==1 ? 'light-bare' : ''} `}>
-                I am passionate about software development and design, and enjoy
-                creating simple and elegant solutions that meet the needs of
-                users. I am constantly striving to improve my skills and
-                expertise in development and design to deliver high-quality
-                software products.
+                As a data scientist, I am passionate about finding insights and making discoveries through data analysis. 
+                I enjoy creating solutions that help businesses and organizations make data-driven decisions.
+                 I am constantly striving to improve my skills and expertise in data science, machine learning, 
+                 and statistics to deliver high-quality insights and models that meet the needs of users.
               </span>
             </div>
             <div className="contact-me-container">
@@ -28,7 +27,7 @@ const Welcome = ({mode}) => {
                   <span ><i className={`${mode==1 ? 'light-blue' : ''} fa fa-envelope`}/></span>
                   <span className={`${mode==1 ? 'text-light' : ''} email`}> 
                     <i className="fa fa-long-arrow-right"></i>
-                    ayoubseddiki132@gmail.com
+                    yassineelboustani666@gmail.com
                     <i className="fa fa-long-arrow-left"></i>
                   </span>
                   <span className={`${mode==1 ? 'light-blue' : ''}`}>contact me  <i className="fa fa-angle-right"></i></span>

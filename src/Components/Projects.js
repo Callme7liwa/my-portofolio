@@ -11,68 +11,46 @@ const Projects = ({mode}) => {
 
     const listProjects = [
         {
-          image : Images.web_dev_6,
-          name : "Streaming Pro",
-          description : "As part of my ongoing professional development, I am working on a new iteration of a full-stack web development project that I previously completed. The project involves creating an audio streaming platform with advanced marketing capabilities, using a different set of technologies than the previous version. I am developing the platform using a variety of languages and frameworks, including React.js, Spring boot and MongoDB, and incorporating new features such as user analytics, custom branding options, and targeted advertising. This project is being undertaken in conjunction with my other coursework and professional commitments, and is a testament to my ongoing dedication to staying up-to-date with the latest trends and technologies in web development .",
-          duration : "Currently Working",
-          technologies : ["java","spring boot","react js" , "redux" , "mongodb","dockers" , "git" , "github"],
-          images : [Images.rap_1 , Images.rap_2,Images.rap_3,Images.rap_4,Images.rap_5,Images.rap_6,Images.rap_7,Images.rap_8,Images.rap_9,Images.rap_10]
-        },
-        {
           image : Images.mobil_dev_1,
-          name : "Baby Monitoring",
-          description : "currently working on a baby monitoring project that utilizes Android Studio, Machine Learning (ML), and Internet of Things (IoT) technologies. The aim of this project is to develop a baby monitoring system that can detect baby behaviors using motion and temperature sensors, and send real-time alerts to a mobile application. This project provides an excellent opportunity for us to deepen our skills in Android app development, ML, and IoT, while contributing to improving the safety and well-being of babies",
-          duration : "Currently Working",
-          technologies : ["java","android","arduino" , "redux" , "git" , "github"],
+          name : "Machine Learning-based Fake News Detection System",
+          description : "In this project, I developed a machine learning model to detect fake news using natural language processing (NLP) techniques. The model was trained on a large dataset of news articles labeled as either real or fake, and I used various NLP techniques such as word embeddings and feature engineering to extract meaningful features from the text data. The final model achieved high accuracy in detecting fake news and can be used as a valuable tool for news organizations, social media platforms, and individuals to identify and combat the spread of misinformation. This project allowed me to apply my skills in machine learning, NLP, and data analysis to create a tool that has significant implications for the reliability of information in today's society.",
+          duration : "3 weeks",
+          technologies : ["machine learning","NLP", "git" , "github"],
           images : []
         },
         {
           image : Images.web_dev_4,
-          name : "School Mate",
-          description : "I designed and developed a web-based school management application that provides a centralized solution for managing student data, teacher information, grades, and absences. My application allowed the school to effectively manage their academic processes, improve communication between students and teachers, and track student progress in real-time. I worked closely with the school administrators to understand their needs, which enabled me to design a user-friendly and intuitive interface that met their specific requirements.",
-          duration : "oct. 2022 - janv. 2023",
-          technologies : ["java","Jee","Servlets","Jsp","js" , "git" , "github"],
-          images : [Images.school_1,Images.school_2,Images.school_3,Images.school_4,Images.school_5,Images.school_6,Images.school_7,Images.school_8,Images.school_9,Images.school_10,Images.school_11,Images.school_12]
+          name : "Machine Learning-based Fraud Detection System",
+          description : "In this project, I developed a machine learning model to detect fraudulent transactions in financial data. I used a variety of supervised and unsupervised learning techniques to analyze patterns in transaction data and identify anomalies that may indicate fraud. I also incorporated techniques such as data preprocessing, feature engineering, and model evaluation to optimize the model's performance. The final model achieved high accuracy in detecting fraudulent transactions and can be used as a valuable tool for financial institutions to prevent fraud. This project allowed me to apply my skills in machine learning, data analysis, and modeling to create a tool that has significant implications for financial security and stability.",
+          duration : "3 weeks",
+          technologies : ["machine learning","data visualisation","features engineering","python", "git" , "github"],
+          images : []
         },
         {
           image : Images.web_dev_1,
-          name : "Project Vision",
-          description : "I designed and developed a web-based project management application for a company, offering a centralized solution for project planning, collaboration, and tracking. My application enabled the company to efficiently manage projects, improve communication and collaboration among team members, and track progress in real-time. I worked closely with team members to understand their needs, which allowed me to design a user-friendly and intuitive interface that met their specific requirements.",
-          duration : "Jul. 2022 - août 2022 · 2 month",
-          technologies : ["java","spring boot","react js" , "redux" ,"git" , "github"],
-          images : [Images.project_1,Images.project_2,Images.project_3,Images.project_4,Images.project_5,Images.project_6,Images.project_7,Images.project_8,Images.project_9,Images.project_10,Images.project_11,Images.project_12,Images.project_13,Images.project_14,Images.project_15,Images.project_16,Images.project_17,Images.project_18,Images.project_19,Images.project_20,Images.project_21,Images.project_22,Images.project_23,Images.project_24,Images.project_25,Images.project_26,Images.project_27,Images.project_28,Images.project_29]
+          name : "Machine Learning-based Prediction Model for Diabetes",
+          description : "In this project, I developed a machine learning model to predict the likelihood of a person developing diabetes based on various health factors such as age, BMI, blood pressure, and glucose levels. I used a dataset of patient records to train the model and employed various techniques such as feature engineering and hyperparameter tuning to improve its accuracy. The model achieved high accuracy in predicting diabetes and can be used as a useful tool for medical professionals in diagnosing and managing the disease. This project allowed me to apply my skills in machine learning, data analysis, and modeling to create a valuable tool for healthcare .",
+          duration : "3 weeks",
+          technologies : ["machine learning","data visualisation","python" , "seaborn" , "powerBI", "git" , "github"],
+          images : []
         },
         {
           image : Images.web_dev_3,
-          name : "Stream Merch",
-          description : "I worked on an ambitious project to create a streaming platform for artists that also includes an online store for selling artist-related products. My project enabled artists to live stream their music, reach a wider audience, and sell their products directly to their fans. I collaborated with a multidisciplinary team to design a user-friendly interface that provides an optimal user experience while allowing artists to easily manage their content and sales. My project was a great success, allowing artists to generate additional revenue through the sale of products related to their music while offering fans a unique music streaming experience.",
-          duration : "mars 2022 - juin 2022",
-          technologies : ["php","laravel","react js" , "redux" , "mysql", "git" , "github"],
-          images : [Images.stream_1,Images.stream_2,Images.stream_3,Images.stream_4,Images.stream_5,Images.stream_6,Images.stream_8,Images.stream_9,Images.stream_10,Images.stream_11,Images.stream_12,Images.stream_13,Images.stream_14,Images.stream_15,Images.stream_16]
+          name : "Machine Learning-based Prediction for the FIFA World Cup",
+          description : "In this project, I developed a machine learning model to predict the outcomes of the FIFA World Cup matches based on historical data. I used various tools for data visualization, such as Tableau, to analyze and understand the data better. I trained the model using data on factors such as team rankings, player statistics, and previous match results. The final model was able to predict the outcomes of the matches with a high degree of accuracy. This project allowed me to apply my skills in data analysis, machine learning, and visualization to make predictions for one of the world's biggest sporting events.",
+          duration : "3 weeks",
+          technologies : ["machine learning","data visualisation","python" , "seaborn" , "powerBI", "git" , "github"],
+          images : [Images.ml,Images.ml2,Images.ml3,Images.ml4,Images.ml5,Images.ml6,Images.ml8,Images.ml9]
         },
         {
           image : Images.web_dev_2,
-          name : "Patrimoine Maghreb",
-          description : "i had the honor of working on a project that focused on the management of moroccan cultural heritage, aiming to preserve and promote the country's cultural treasures. as a web developer, i worked closely with experts in cultural heritage to create an interactive and educational platform for visitors from around the world. this platform allowed users to explore historical sites, museums, and cultural events through photos, videos, and detailed descriptions. it also provided practical information to help visitors plan their trips. through this project, i was able to contribute to the preservation of morocco's cultural heritage and promote its cultural tourism across the globe.",
-          technologies : ["php","laravel","react js" , "redux" , "mysql", "git" , "github"],
-          duration : "mai. 2021 - jun 2021 · 2 month",
-          images : [Images.patri_1,Images.patri_2,Images.patri_3,Images.patri_4,Images.patri_5,Images.patri_6,Images.patri_7,Images.patri_8,Images.patri_9,Images.patri_10,Images.patri_11,Images.patri_12,Images.patri_13,Images.patri_14,Images.patri_15,Images.patri_16,Images.patri_17,Images.patri_18]
+          name : "Blood Bank Management Website with MVC Pattern using PHP",
+          description : "I developed a website for blood bank management using the Model-View-Controller (MVC) pattern with PHP. The website allows users to register as donors, search for blood banks and available blood types, and schedule appointments to donate blood. I implemented a secure login system and a dashboard for donors to track their donation history and eligibility status. The website is designed with a user-friendly interface and can easily scale to accommodate large amounts of data. This project allowed me to apply my knowledge of web development, PHP programming, and MVC architecture to create a valuable tool for blood bank management.",
+          technologies : ["php","html","css" , "merise" , "mysql", "git" , "github" , "mvc" , "bootstrap"],
+          duration : " 2 month",
+          images : [Images.bb1,Images.bb2,Images.bb3,Images.bb4,Images.bb5,Images.bb6]
         },
-        {
-          image : Images.web_dev_8 , 
-          name  : "IT Equipment Keeper",
-          description : "The IT Department Equipment Management project involves the development of a desktop application to manage the inventory and operations of a warehouse that stores various IT equipment such as computers, printers, servers, and other hardware devices. The application aims to provide an efficient solution for managing the equipment inventory, tracking equipment usage, maintenance schedules, and ordering new equipment as necessary. The application is designed to be user-friendly, with features such as equipment categorization, search, and reporting capabilities to allow IT department staff to easily manage the warehouse operations. The goal of the project is to optimize the IT department's equipment management processes, reduce equipment downtime, and ensure the smooth functioning of the organization's IT infrastructure.",
-          technologies : ["php","laravel","Html" , "css pure" , "jquery", "js", "git" , "github"],
-          duration : "february. 2021 - mars. 2021 . 2 month",
-        },
-        {
-          image : Images.web_dev_9 , 
-          name  : "GeoHeritage",
-          description : "This project involves developing a web application that will showcase the history, geography, and monuments of a region, country, or even the entire world. The application will provide detailed information on each historical monument or tourist site, interactive maps to help users locate the sites, and images to illustrate the monuments and their history. It will also allow users to plan guided tours, share comments and photos, and discover additional information about the featured sites. The goal is to provide an educational and engaging platform for history enthusiasts and tourists.",
-          technologies : ["php","Html" , "css pure" , "jquery", "js", "git" , "github"],
-          duration : "oct. 2020 - janv. 2021",
-        }
-    ]
+        ]
 
     const ShowImage = () => {
         return(

@@ -6,7 +6,7 @@ const PersonalInformation = ({mode}) => {
         {
           name : "Birthday",
           image : Images.birthday_icon,
-          value : "01-11-2000",
+          value : "15-09-2000",
         },
         {
           name : "Natonality",
@@ -16,12 +16,12 @@ const PersonalInformation = ({mode}) => {
         {
           name : "City",
           image : Images.city_icon,
-          value  : "fes" , 
+          value  : "casablanca" , 
         },
         {
           name : "Location",
           image : Images.location_icon,
-          value : "30 rue hay salam Rte bourkaiz",
+          value : "hay lalla meriem bloc 121 , N 01",
         },
         {
           name : "Civil State",
@@ -34,23 +34,16 @@ const PersonalInformation = ({mode}) => {
     {
         universityImage : Images.ensias_logo,
         universityName  : "National School of Computer Science and Systems Analysis of rabat ",
-        title           : "Engineering degree, IDSIT: DATA SCIENCE & IOT",
+        title           : "Engineering degree, GD: DATA ENGINEERING",
         period          : "sept. 2021 - juil. 2024",
-        comptences      : ["html","php","java",".net","android","data structure","jee","js","uml","merise","sql","sql server","oracle database","administration windows" , "administration unix","methodes agile","analays de donnees","datawarehouse"]
+        comptences      : ["big data","image processing","java","c","python","data structure","machine learning","deep learning","uml","merise","sql","unity","blender","docker" , "Kubernetes","methodes agile","analays de donnees","data visualisation"]
     },
     {
         universityImage : Images.logo_fst,
-        universityName : "Faculty of Sciences and Techniques of Fes",
-        title : "bachelor's degree, computer engineering",
-        period          : "sept. 2021 - juil. 2024",
-        comptences : ["html", "css","js","php","java","C++","Swing","sql","Uml","merise","tcp/ip","unix"],
-    },
-    {
-        universityImage : Images.logo_fst,
-        universityName : "Faculty of Sciences and Techniques of Fes",
+        universityName : "Faculty of Sciences and Techniques of Mohammedia",
         title : "Diploma of scientific and technical university studies (DEUST), Mathematics Computer physics",
-        period          : "sept. 2021 - juil. 2024",
-        comptences      : ["Algorithms" , "C" , "Mathematical Analysis" , "Linear algebra" , "Arduino"]
+        period          : "sept. 2019 - juil. 2021",
+        comptences      : ["Algorithms" , "C" , "Mathematical Analysis" , "Linear algebra" , "merise" , "sql"]
     }
     ]
 

@@ -43,7 +43,7 @@ function App() {
       <div className="page_header-container">
         <div className="header_left-container">
           <span className={`${mode==1 ? 'text-blue' : ''}`}>&lt; / </span>
-          <span className={`${mode==1 ? 'text-light' : ''}`}> Ayoub Seddiki </span>
+          <span className={`${mode==1 ? 'text-light' : ''}`}> yassine el boustani </span>
           <span className={`${mode==1 ? 'text-blue' : ''}`}> &gt; </span>
         </div>
         <div className="header_center-container">
@@ -80,7 +80,7 @@ function App() {
         <PersonalInformation mode={mode} />
         <Experiences mode={mode}/>
         <Projects mode={mode}/>
-        <AboutMe mode={mode}/>
+        
       </div>
     </div>
   );
